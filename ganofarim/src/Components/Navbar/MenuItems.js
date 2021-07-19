@@ -15,5 +15,9 @@ export const MenuItems = [
         utl: '#',
         cName: 'nav-links'
     },
-
+    {
+        title: 'התחברות',
+        utl: '#',
+        cName: 'nav-links-mobile'
+    }
 ]
