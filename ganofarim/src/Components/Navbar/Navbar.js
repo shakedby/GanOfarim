@@ -15,7 +15,7 @@ class Navbar extends Component {
             <nav className="NavbarItems">
                 <h1 className="navbar-logo">גן עופרים<i className="fab fa-react">
                 </i></h1>
-                <div className="menu-icon" onClick={this.handleClick}>
+                <div className="manu-icon" onClick={this.handleClick}>
                     <i className={this.state.clicked ? 'fa fa-times' : 'fa fa-bars'}></i>
                 </div>
                 <ul className={this.state.clicked ? 'nav-menu active' : 'nav-menu'}>
