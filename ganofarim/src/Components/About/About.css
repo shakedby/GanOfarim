@@ -1,0 +1,29 @@
+h2{
+    font-family: 'Amatic SC';
+    text-align: right;
+    font-size: 70px;
+    color:orange;
+    font-weight: bolder;
+    padding: 40px;
+    transform: translate(0%, -10%);
+}
+
+body  {
+    background-image: url("../../Images/childrens.jpg");
+    background-size: cover;
+    background-position: center;  
+    background-repeat: no-repeat;
+    background-position: 0px 100px;
+
+}
+@media screen and (max-width:960px){
+    h2{
+        font-size: 45px;
+        padding: auto;
+    }
+    body{
+        background-size: cover;
+        background-attachment: scroll;
+        border-width: medium;
+    }
+}
