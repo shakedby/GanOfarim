@@ -1,6 +1,5 @@
 import React from 'react';
 import './About.css';
-import { ImageBackground } from 'react';
 function About() {
     return (
         <div className="About">
