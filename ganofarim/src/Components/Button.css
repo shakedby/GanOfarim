@@ -6,10 +6,11 @@
     background-color: var(--primary);
     color: white;
     padding: 8px 20px;
-    border-radius: 4px;
+    border-radius: 8px;
     outline: none;
     border:none;
     cursor: pointer;
+    font-size: 18px;
 }
 .btn:hover{
     padding: 8px 20px;
@@ -17,6 +18,7 @@
     background: #fff;
     color:#6568f4;
     transition: 250ms;
+    font-size: 18px;
 }
 .btn--primary{
     background-color: var(--primary);

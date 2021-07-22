@@ -14,33 +14,38 @@ body{
     background-position: center;  
     background-repeat: no-repeat;
     background-position: 0px 100px;
-    background-attachment:scroll;
+    background-attachment:flex;
 }
 
-p{
+h3{
     font-family: 'Amatic SC';
-    text-align: center left;
-    padding: 20px;
+    text-align: top left;
+    padding: 0px;
     color:orange;
-    font-size: 50px;
+    font-size: 40px;
     font-weight: bolder;
+    transform: translate(4%, -200%);
 
 }
 
-@media screen and (max-width:960px){
+@media screen and (max-width:600px){
     h2{
-        font-size: 45px;
+        font-family: 'Amatic SC';
+        font-size: 20px;
         padding: auto;
+        text-align: top right;
     }
     body{
         background-size: cover;
-        background-attachment: inherit;
         border-width: medium;
-        background-attachment:scroll;
+        background-attachment:flex;
     }
-    p{
-        text-align: left;
-        color:orange;
+    h3{
+        font-family: 'Amatic SC';
         font-weight: bolder;
+        text-align: top left;
+        color:orange;
+        font-size: 15px;
+        transform: translate(2%, -400%);
     }
 }
