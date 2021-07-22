@@ -1,23 +1,28 @@
 
 export const MenuItems = [
     {
+        title: ' על הגן',
+        utl: 'About',
+        cName: 'nav-links'
+    },
+    {
         title: 'מתקני הגן',
-        utl: '#',
+        utl: 'Gardenfacilities',
         cName: 'nav-links'
     },
     {
         title: 'חוגים',
-        utl: '#',
+        utl: 'Activities',
         cName: 'nav-links'
     },
     {
         title: 'תפריט אוכל',
-        utl: '#',
+        utl: 'Foodmenu',
         cName: 'nav-links'
     },
     {
         title: 'התחברות',
-        utl: '#',
+        utl: 'Login',
         cName: 'nav-links-mobile'
     }
 ]
