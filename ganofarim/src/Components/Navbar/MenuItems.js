@@ -16,7 +16,7 @@ export const MenuItems = [
         cName: 'nav-links'
     },
     {
-        title: 'תפריט אוכל',
+        title: 'צוות הגן',
         utl: 'Foodmenu',
         cName: 'nav-links'
     },
