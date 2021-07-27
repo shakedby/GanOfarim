@@ -31,7 +31,8 @@ class Navbar extends Component {
                         )
                     })}
                 </ul>
-                <Button>התחברות</Button>
+
+                <a href="/Login"> <Button>התחברות</Button></a>
             </nav >
         )
     }

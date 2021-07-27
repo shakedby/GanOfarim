@@ -1,0 +1,12 @@
+.img{
+    width: 70%;
+    height: 50%;
+    float: right;
+}
+p{
+    font-family: 'Amatic SC';
+    color: orange;
+    text-align: right;
+    font-size: 40px;
+    padding:120px
+}
