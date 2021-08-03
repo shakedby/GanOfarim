@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './Login.css';
-import image from '../../Images/432.jpg';
+import image from '../../Images/chil.jpg';
 import { Redirect } from "react-router-dom";
 import Gallery from '../Gallery/Gallery';
 
@@ -28,21 +28,21 @@ class Login extends Component {
 
     render() {
         if (this.state.redirect)
-            return <Gallery password={this.state.password} />
-        // return <Redirect to={'/Gallery'} />
+            // return <Gallery password={this.state.password} />
+            return <Redirect to={'/Gallery'} />
         else
             return (
-                <div className="login">
-                    <img className="img" src={image}></img>
-                    <form onSubmit={this.handleSubmit}>
-                        <p>להיתחברות הקש סיסמא</p>
+                <div className="login" >
+                    <img className="imglogin" src={image} alt="loginimage"></img>
+                    <form className='form' onSubmit={this.handleSubmit}>
+                        <p className='p'>התחברות</p>
+                        <input type="submit" value='התחבר'></input>
                         <input type="password" value={this.state.password} onChange={(e) => this.setState({ password: e.target.value })} />
-                        <input type="submit" value='Submit'></input>
+
 
                     </form>
                 </div>
             )
     }
-
 }
 export default Login;

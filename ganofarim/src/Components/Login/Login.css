@@ -1,12 +1,39 @@
-.img{
-    width: 70%;
+.imglogin{
+    width: 100%;
     height: 50%;
-    float: right;
 }
-p{
+.form{
     font-family: 'Amatic SC';
     color: orange;
-    text-align: right;
     font-size: 40px;
-    padding:120px
+    position: absolute;
+    left: 930px;
+    top: 120px;
+    border-radius: 20%;
+}
+.p{
+    font-family: 'Amatic SC';
+    color:steelblue;
+    position:initial;
+    font-size: 60px;
+    text-align: center;
+}
+input[type=submit]{
+    font-family: 'Amatic SC';
+    padding: 8px 28px;
+    background-color:palegreen;
+    color:steelblue;
+    border: 2px solid steelblue;
+    font-size: 22px;
+    border-radius: 10px;
+}
+input[type=password]{
+    font-family: 'Amatic SC';
+    padding: 8px 28px;
+    background-color:palegreen;
+    color:steelblue;
+    border: 2px solid steelblue;
+    font-size: 22px;
+    border-radius: 10px;
+    margin: 10px;
 }

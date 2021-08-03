@@ -1,5 +1,5 @@
 :root{
-    --primary:#3acbf7;
+    --primary:#4ad9e4;
 }
 .btn{
     font-family: 'Amatic SC';
@@ -10,7 +10,7 @@
     outline: none;
     border:none;
     cursor: pointer;
-    font-size: 18px;
+    font-size: 2rem;
 }
 .btn:hover{
     padding: 8px 20px;
@@ -18,7 +18,7 @@
     background: #fff;
     color:#6568f4;
     transition: 250ms;
-    font-size: 18px;
+    font-size: 2rem;
 }
 .btn--primary{
     background-color: var(--primary);
