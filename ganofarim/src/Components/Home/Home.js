@@ -1,16 +1,28 @@
-import React from 'react';
+import React, { Fragment } from 'react';
 import './Home.css';
-import homeimg from '../../Images/homepageee.jpg'
+import homeimg from '../../Images/homepageee.jpg';
+import Activities from '../Activities/Activities';
+import About from '../About/About';
+
+
 
 function Home() {
     return (
-        <div>
-            <img className='img1' src={homeimg}>
-            </img>
-            <h6>ברוכים הבאים לגן עופרים</h6>
+        <Fragment>
+            <div className='Home'>
+                {/* <img className='img1' src={homeimg}>
+            </img> */}
+                <h6>ברוכים הבאים לגן עופרים</h6>
 
 
-        </div>
+                <About />
+                <Activities />
+
+
+
+            </div>
+
+        </Fragment>
     )
 
 }

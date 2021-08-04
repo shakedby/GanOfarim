@@ -1,9 +1,14 @@
-import React from 'react';
+import React, { Fragment } from 'react';
 import "./Activities.css";
 
 function Activities() {
     return (
-        <h3>hi</h3>
+        <section id="Activities">
+            <div className='Activities'>
+                <p>hi</p>
+            </div>
+        </section>
+
     )
 }
 export default Activities;

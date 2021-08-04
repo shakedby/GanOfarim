@@ -2,7 +2,7 @@
 export const MenuItems = [
     {
         title: ' על הגן',
-        utl: 'About',
+        utl: '#About',
         cName: 'nav-links'
     },
     {
@@ -12,7 +12,7 @@ export const MenuItems = [
     },
     {
         title: 'חוגים',
-        utl: 'Activities',
+        utl: '#Activities',
         cName: 'nav-links'
     },
     {
