@@ -1,5 +1,8 @@
-:root{
-    --primary:#4ad9e4;
+:root{   
+
+    /* --primary:#4ad9e4; */
+    --primary:#fc9d03;
+
 }
 .btn{
     font-family: 'Amatic SC';
@@ -16,7 +19,9 @@
     padding: 8px 20px;
     transition: all 0.3s ease-out;
     background: #fff;
-    color:#6568f4;
+    /* color:#6568f4; */
+    color: #fc9d03;
+    
     transition: 250ms;
     font-size: 2rem;
 }

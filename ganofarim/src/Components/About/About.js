@@ -6,10 +6,14 @@ function About() {
     return (
         <section id="About">
             <div className="About" >
-                <img className="img" src={homeimg}></img>
-                <h2>   ...קצת על הגן</h2>
-                <h3>הגן שלנו ממוקם במרכז ראשון לציון, בשכונת אברמוביץ</h3>
-                <h4>נשמח לתת לכם עוד פרטים, צרו קשר 03-9655434</h4>
+                {/* <img className="img" src={homeimg}></img> */}
+                <p>
+                    ...קצת על הגן
+                    <br />
+                    הגן שלנו ממוקדם במרכז ראשון לציון, שכונת ארמוביץ
+                    <br />
+                    נשמח לתת עוד פרטים 03-9655434
+                </p>
             </div>
         </section>
     )

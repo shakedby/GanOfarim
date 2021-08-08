@@ -15,7 +15,7 @@ class Navbar extends Component {
     render() {
         return (
             <nav className="NavbarItems">
-                <a href="/" > <img style={{ width: '118px', borderRadius: '100px' }} className="ganofarimlogo" src={Logo} alt='' /></a>
+                <a href="/" > <img style={{ width: '120px' }} className="ganofarimlogo" src={Logo} alt='' /></a>
                 <a href="/" > <h1 className="navbar-logo">גן עופרים<i className="fab fa-react">
                 </i></h1></a>
                 <div className="manu-icon" onClick={this.handleClick}>

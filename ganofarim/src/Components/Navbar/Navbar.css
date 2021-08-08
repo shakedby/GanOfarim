@@ -5,7 +5,14 @@ a{
 }
 .NavbarItems{
 /* background: linear-gradient(90deg, rgb(110,94,254)0%,rgba(73,63,252,1)100%); */
-background:cornflowerblue;
+background:#fff;
+border-bottom-left-radius: 20px;
+border-bottom-right-radius: 20px;
+border-bottom: 4px #fc9d03 solid ;
+border-left: 4px #fc9d03 solid ;
+border-right: 4px #fc9d03 solid ;
+padding: 15px;
+
 height: 80px;
 display: flex;
 justify-content: center;
@@ -13,11 +20,19 @@ align-items: center;
 font-size: 2rem;
 }
 .navbar-logo{
-    color: white;
+    color: #fc9d03;
     justify-self: start;
     margin-left: 20px;
     cursor: pointer;
     font-family: 'Amatic SC';
+
+}
+.ganofarimlogo{
+    text-align: left;
+    margin-left: -26px;
+    border-bottom-left-radius: 20px;
+    
+    border-bottom-right-radius: 20px;
 
 }
 .fa-react{
@@ -35,20 +50,20 @@ font-size: 2rem;
     margin-right: 2rem ;
 }
 .nav-links{
-    color: white;
+    color: #fc9d03;
     text-decoration: none;
     padding: 0.5rem 1rem;
     font-family: 'Amatic SC';
 }
 .nav-links:hover{
     /* background-color: #6d76f7; */
-    background-color: #F4F9FF;
-    color: cornflowerblue;
+    background-color: #fc9d03;
+    color: white;
     border-radius: 8px;
     transition: all 0.2s ease-out;
 }
 .fa-bars {
-    color: #fff;
+    color: #fc9d03;
 }
 .manu-icon {
     display:none;
@@ -57,6 +72,11 @@ font-size: 2rem;
     display: none;
 }
 @media screen and (max-width:960px){
+    .ganofarimlogo{
+        border-radius: 10px;
+        margin-left: -149%;
+
+    }
     .NavbarItems{
         position: relative;
     }
@@ -73,11 +93,12 @@ font-size: 2rem;
     }
     .nav-menu.active{/*the nav for the phone*/
         /* background: #6668f4; */
-       background:cornflowerblue;
+       background:#fff;
         left: 0;
         opacity: 1;
         transition: all 0.5s ease;
         z-index: 1;
+        margin-top: 0.5px;
     }
     .nav-links{
         text-align:center;
@@ -88,13 +109,14 @@ font-size: 2rem;
     .nav-link:hover{
         /* background-color: #7577fa; */
         background-color: #F4F9FF;
-        color:cornflowerblue;
+        color:#fc9d03;
         border-radius: 0;
+        margin-top: 10%;
     }
     .navbar-logo {
         position: absolute;
-        top: 0;
-        left: 0;
+        top: -25px;
+        left: 250px;
         transform: translate(25%,50%);
     }
  
@@ -108,7 +130,7 @@ font-size: 2rem;
         cursor: pointer;
     }
     .fa-times{
-        color: white;
+        color: #fc9d03;
         font-size: 2rem;
     }
     .nav-links-mobile{
@@ -116,9 +138,9 @@ font-size: 2rem;
         text-align:center;
         padding: 1rem;
         margin: 1rem auto;
-        border-radius: 2px;
+        border-radius: 8px;
         width: 80%;
-        background: #4ad9e4;
+        background: #fc9d03;
         text-decoration: none;
         color: #fff;
         font-size: 2 rem;
@@ -127,7 +149,7 @@ font-size: 2rem;
     .nav-links-mobile:hover{
         background: #fff;
         /* color: #6568f4; */
-        color: cornflowerblue;
+        color: #fc9d03;
         transition: 250ms;
     }
     Button{
