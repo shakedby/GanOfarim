@@ -6,21 +6,20 @@ position:relative;
 background-size: cover;
 } */
 
-
-h6{
-    font-family: 'Amatic SC';
-    color:cornflowerblue;
-    font-size: 130px;
-    padding-top: 20%;
-    padding-bottom: 20%;
-    /* position:absolute;
+h6 {
+  font-family: "Amatic SC";
+  color: cornflowerblue;
+  font-size: 130px;
+  padding-top: 20%;
+  padding-bottom: 20%;
+  /* position:absolute;
     top: 250px;
     left: 280px; */
 }
-.Home{
-align-items: center;
-text-align: center;
-background-image: url('../../Images/b3.jpg');
-background-size:50% ;
-width: 100%;
+.Home {
+  align-items: center;
+  text-align: center;
+  /* background-image: url("../../Images/b3.jpg"); */
+  background-size: 50%;
+  width: 100%;
 }
