@@ -9,6 +9,7 @@ import Gallery from "./Components/Gallery/Gallery";
 import Gardenfacilities from "./Components/Gardenfacilities/Gardenfacilities";
 import Team from "./Components/Team/Team";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import GalleryAdmin from "./Components/GalleryAdmin/GalleryAdmin";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <Switch>
           <Route path="/Login" component={Login} />
           <Route path="/Gallery" component={Gallery} />
+          {/* <Route path="/GalleryAdmin" component={GalleryAdmin} /> */}
         </Switch>
       </div>
     </Router>

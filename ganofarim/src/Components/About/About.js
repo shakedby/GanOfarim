@@ -1,7 +1,7 @@
 import React from "react";
 import "./About.css";
 
-function About() {
+const About = (props) => {
   return (
     <section id="About">
       <div className="About">
@@ -16,6 +16,6 @@ function About() {
       </div>
     </section>
   );
-}
+};
 
 export default About;
