@@ -4,6 +4,7 @@ import { Redirect } from "react-router-dom";
 import Carousel from "react-gallery-carousel";
 import "react-gallery-carousel/dist/index.css";
 import axios from "axios";
+import OneImg from "./OneImg";
 
 const GalleryAdmin = (props) => {
   const [galleryList, setGallerylist] = useState([]);
@@ -26,11 +27,15 @@ const GalleryAdmin = (props) => {
   return (
     <div className="admin">
       {galleryList.map((slide, indax) => {
-        console.log(slide.url);
-        return <img src={slide.url} alt="me" className="slider"></img>;
+        return (
+          <OneImg
+            url={slide.url}
+            id={slide._id}
+            setGallerylist={setGallerylist}
+          />
+        );
       })}
     </div>
-  );
+  ); //inside slide i have url,id....
 };
-
 export default GalleryAdmin;
